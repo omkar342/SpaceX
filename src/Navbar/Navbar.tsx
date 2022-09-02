@@ -1,22 +1,31 @@
 import React from "react";
 import classes from "./Navbar.module.css";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className={classes.nav}>
       <nav>
         <div className={classes.logo}>
-            <h1><a href="">SpaceX</a></h1>
+          <h1>
+            <a href="">SpaceX</a>
+          </h1>
         </div>
         <ul>
           <li>
-            <a href="http://localhost:3000/">Home</a>
+            <NavLink activeClassName={classes.active} exact to="/">
+              Home
+            </NavLink>
           </li>
           <li>
-            <a href="http://localhost:3000/">Launchpads</a>
+            <NavLink activeClassName={classes.active} to="/:launchpadId">
+              Launchpad
+            </NavLink>
           </li>
           <li>
-            <a href="http://localhost:3000/">Launchpads</a>
+            <NavLink activeClassName={classes.active} exact to="/launchpad">
+              Launchpad
+            </NavLink>
           </li>
         </ul>
       </nav>

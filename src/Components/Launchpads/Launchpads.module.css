@@ -1,0 +1,27 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    margin: 2.5rem 0px 2rem;
+    color: #000;
+    animation-name: bounce;
+    background: -webkit-linear-gradient(#1C3879, #a0aec4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+@keyframes Launchpads_bounce__z6wD2 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}   

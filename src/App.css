@@ -1,9 +1,11 @@
 .App {
   /* text-align: center; */
+  box-sizing: border-box;
+  color: #fff;
+  
 }
 
 .App-header {
-  /* background-color: #282c34; */
   /* min-height: 100vh; */
   display: flex;
   flex-direction: column;

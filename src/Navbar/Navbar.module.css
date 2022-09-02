@@ -1,61 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Trispace:wght@600&display=swap");
+
 .nav nav ul li a {
-    /* display: block; */
-    color: #ff0000;
-    text-decoration: none;
-    padding: 10px 15px;
+  font-weight: bold;
+  color: #607eaa;
+  text-decoration: none;
+  padding: 10px 15px;
 }
 
 .nav nav ul li a:hover {
-    background-color: #ff0000;
-    color: #fff;
-    border-radius: 10px;
+  text-decoration: underline;
+  border-radius: 10px;
 }
 
 /* make it a bit subtle */
-.nav nav ul li a:active {
-    background-color: #ff0000;
+/* .nav nav ul li a:active {
+    background-color: #607EAA;
     color: #fff;
     border-radius: 10px;
-}
+} */
 
 .nav nav ul li {
-    list-style: none;
-    display: inline-flex;
+  list-style: none;
+  display: inline-flex;
 }
 
 .nav {
-    width: 100%;
-    background-color: black;
-    border: 2px solid red;
-    box-sizing: border-box;
+  width: 100%;
+  /* background-color: black; */
+  background-image: linear-gradient(180deg, #eae3d2, #a8a4ce);
+  /* background-repeat: repeat-y; */
+  background-size: 100%;
+  border: 2px solid #607eaa;
+  box-sizing: border-box;
+  box-shadow: -1px 2px 5px 3px #607eaa;
 }
 
 .nav nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 2px solid #ff0000;
-    margin: 10px;
-    padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 2px solid #ff0000; */
+  margin: 10px;
+  padding: 0px 10px;
 }
 
-.nav .logo h1{
-    color: #ff0000;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 14px auto;
-    background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.nav .logo h1 {
+  color: #ff0000;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 12px auto;
+  background: -webkit-linear-gradient(#1c3879, #a0aec4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav .logo h1 a {
-    /* color: #ff0000; */
-    text-decoration: none;
-    padding: 10px 25px;
+  /* color: #ff0000; */
+  text-decoration: none;
+  padding: 10px 25px;
+  font-family: "Trispace", sans-serif;
+  letter-spacing: 0.9px;
 }
 
 .nav .logo h1 a:hover {
-    color: #fff;
-    text-decoration: underline;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.nav nav ul li a:hover,
+.nav nav ul li a:active,
+.nav nav ul li a.active {
+  background-color: #607eaa;
+  color: #fff;
+  border-radius: 10px;
 }

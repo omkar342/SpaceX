@@ -1,0 +1,9 @@
+.launchpadCard {
+    /* border: 2px solid red; */
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 10rem;
+}

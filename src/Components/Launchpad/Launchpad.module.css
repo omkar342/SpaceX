@@ -1,0 +1,9 @@
+.launchpad .title h1{
+    margin: 2.5rem 0px 2rem;
+    color: #000;
+    animation-name: bounce;
+    background: -webkit-linear-gradient(#1C3879, #a0aec4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+}
