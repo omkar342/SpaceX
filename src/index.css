@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 html{
@@ -12,6 +13,10 @@ html{
         background-repeat: repeat-y;
         background-size: 100% ; */
         background-color: #B8B3CE;
+        /* padding: 0px; */
+        /* margin-right: -13px;
+        overflow: hidden; */
+        overflow-x: hidden;
 }
 
 code {

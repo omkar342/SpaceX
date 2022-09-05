@@ -10,14 +10,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar />
-        {/* <Switch> */}
+        <Switch>
         <Route exact path="/">
           <Launchpads />
         </Route>
-        <Route exact path="/:launchpadId">
+        <Route exact path="/launchpad/:launchpadId">
           <Launchpad />
         </Route>
-        {/* </Switch> */}
+        </Switch>
       </header>
     </div>
   );

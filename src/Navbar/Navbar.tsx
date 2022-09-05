@@ -18,15 +18,15 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName={classes.active} to="/:launchpadId">
+            <NavLink activeClassName={classes.active} to="/launchpad">
               Launchpad
             </NavLink>
           </li>
-          <li>
-            <NavLink activeClassName={classes.active} exact to="/launchpad">
+          {/* <li>
+            <NavLink activeClassName={classes.active} exact to="/launchpadId">
               Launchpad
             </NavLink>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
